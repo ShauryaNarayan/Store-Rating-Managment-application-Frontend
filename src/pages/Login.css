@@ -1,0 +1,76 @@
+/* frontend/src/pages/Login.css */
+.login-root {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.login-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    backdrop-filter: blur(4px); /* Professional blur effect */
+    z-index: 1;
+}
+
+.login-card {
+    position: relative;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1976d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(25, 118, 210, 0.4);
+}
+
+.submit-btn {
+    margin-top: 30px !important;
+    padding: 12px !important;
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-transform: none !important;
+    background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%) !important;
+    box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.submit-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(33, 203, 243, .4) !important;
+}
+
+.input-spacing {
+    margin-bottom: 20px !important;
+}
