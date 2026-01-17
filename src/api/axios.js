@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://store-rating-managment-application-4.onrender.com/api',
 });
 
 // Automatically add the Token to every request if we have one
