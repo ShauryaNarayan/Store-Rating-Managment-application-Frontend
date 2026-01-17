@@ -35,3 +35,7 @@ Owner Dashboard:
 View average rating for your store.
 See a list of customers who rated your store.
 Change password.
+
+Vercel Published Link: https://store-rating-managment-application-lime.vercel.app/
+
+Backend Git Url: https://github.com/ShauryaNarayan/Store-Rating-Managment-application.git
